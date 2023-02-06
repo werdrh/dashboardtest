@@ -111,6 +111,12 @@ body {
   min-width: 0;
 }
 
+/*
+(i) Стили будут применяться ко 
+всем классам содержащим *__container
+Например header__container, main__container и т.д.
+Снипет (HTML): cnt
+*/
 
 [class*=__container] {
   max-width: 90rem;
@@ -570,11 +576,6 @@ body {
   letter-spacing: -0.01em;
 }
 
-.table-customers {
-  overflow-x: scroll;
-  /* прокрутка по горизонтали */
-}
-
 .table-customers__table-tr-st {
   text-align: center !important;
 }
@@ -805,6 +806,10 @@ body {
 @media (max-width: 56.25em) {
   .dashboard-customers__container {
     padding: 0 1em 0 0;
+  }
+
+  .table-customers {
+    overflow-x: scroll;
   }
 
   .table-customers__table {
