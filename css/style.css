@@ -502,7 +502,7 @@ body {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 5px;
-  background-image: url(img/icon/search.svg);
+  background-image: url(../img/icon/search.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
